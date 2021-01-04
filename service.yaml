@@ -7,7 +7,7 @@ spec:
     app: k8s-demo-app
   type: NodePort
   ports:
-  - protocol: TCP
-    port: 3001
-    targetPort: 3000
-    nodePort: 30390
+    - protocol: TCP
+      port: 3001
+      targetPort: 3000
+      nodePort: 30390
